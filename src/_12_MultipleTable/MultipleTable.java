@@ -10,5 +10,14 @@ public class MultipleTable {
             }
             System.out.println();
         }
+        int hi;
     }
 }
+
+//git status
+//git add .
+//git status
+//git commit -m "커밋 메시지"
+//git push origin main
+
+
