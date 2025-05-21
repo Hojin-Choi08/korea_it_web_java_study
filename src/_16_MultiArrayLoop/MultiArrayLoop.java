@@ -30,7 +30,8 @@ public class MultiArrayLoop {
             System.out.println();
         }
         //다차월 배열 합 구하기
-        // 3 X 3
+        // 3 X 3 크기 1부터 홀수만 차례대로 대입하고 출력해서 확인
+        // 그 수들의 합을 구하기
 
     }
 }
