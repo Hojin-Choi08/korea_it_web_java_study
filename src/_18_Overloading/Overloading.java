@@ -1,5 +1,7 @@
 package _18_Overloading;
 
+import java.sql.SQLOutput;
+
 public class Overloading {
     public static int getPower(int num) {
         return num * num;
