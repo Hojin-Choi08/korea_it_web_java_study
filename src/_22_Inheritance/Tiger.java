@@ -1,4 +1,4 @@
-package Inheritance;
+package _22_Inheritance;
 
 /*
     super는 부모에게 접근할 수 있는 키워드
