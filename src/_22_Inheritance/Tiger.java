@@ -4,10 +4,10 @@ package _22_Inheritance;
     super는 부모에게 접근할 수 있는 키워드
     자식 클래스에서 "부모님 기능 또는 속성" 접근할 때 쓰는 것
     super 키워드의 두 가지 사용 방식
-    1. super() : 부모 클래스의 생성자를 호출하는 키워드 / 기본 생성자라면 () 아무런 값이 없다
-        매개변수 생성자라면 () 매개변수가 포함되는 것
-    2. super.method() 또는 super.field(member variable)
- */
+    1. super() : 부모 클래스의 생성자를 호출하는 키워드 / 기본 생성자라면 () 아무런 값이 없다.
+            매개변수 생성자라면 () 매개변수가 포함되는 것
+    2. super.method() 또는 super.필드명(멤버변수) : 부모클래스의 메소드를 불러올 수 있다.
+* */
 
 public class Tiger extends Animal{
     // Animap에게 상속받아 Animal이 가지고 있는 속성과 메소드를 그대로 받음
