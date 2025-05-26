@@ -40,7 +40,7 @@ public class Animal {
     }
 
     public void move() {
-        System.out.println(animalName + " is moving");
+        System.out.println(" is moving");
     }
 
 }
