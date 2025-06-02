@@ -6,7 +6,7 @@ public class LogManager {
     //자원을 공유해야할 때
     //객체를 여러번 만들 필요가 없고, 한 번만 만들고 재사용하는 경우
 
-//    private static LogManager instance;
+    private static LogManager instance;
 
     private LogManager () {} //생성자를 private으로 막아서 외부에서 new 금지
 
