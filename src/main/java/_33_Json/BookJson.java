@@ -20,11 +20,10 @@ class Book{
 
 public class BookJson {
     public static void main(String[] args) {
-
         Gson gson = new Gson();
         Gson gsonBuilder = new GsonBuilder().setPrettyPrinting().create();
 
-        Book book = new Book(
+        Book book1 = new Book(
                 "1234",
                 "Wizards of Oz",
                 "IDK",
@@ -32,8 +31,17 @@ public class BookJson {
                 "IDK"
         );
 
-        String bookJson = gsonBuilder.toJson(book);
-        System.out.println("gson 문자열: " + book);
+        //1st
+        String bookJson = gson.toJson(book1);
+        System.out.println("Json: " + bookJson);
+        //2nd
+        Map<String, String> map1 = gson.fromJson(bookJson, Map.class);
+        System.out.println("Map: " + map1);
+        //3rd
+        System.out.println("Pretty Json: " + gsonBuilder.toJson(map1));
+        //4rd
+        Book book2 = gson.fromJson(bookJson, Book.class);
+        System.out.println("Book: " +book2);
 
 
     }
